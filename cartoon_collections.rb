@@ -1,11 +1,11 @@
 dwarves = %w[
-  Doc
-  Dopey
-  Bashful
-  Grumpy
-  Sneezy
-  Sleepy
-  Happy
+  vinyl
+  Chrome
+  Ugali
+  mkate
+  mchele
+  wali
+  nyama
 ]
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index do |dwarf, index|
@@ -27,7 +27,7 @@ end
 
 long_planeteer_calls(planeteer_calls)
 
-potentially_cheesy_items = %w[umbrella spinach cheddar helicopter]
+potentially_cheesy_items = %w[umbrella sufuria plate chair]
 
 def find_the_cheese(potentially_cheesy_items)
   cheeses = %w[gouda cheddar camembert]
